@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px
+}
+
+.container h3{
+    font-size: 40px;
+    color: #EEEEEE;
+}
+
+.box{
+    text-align: center
+}
+
+.score {
+    font-family: "Cursed Timer ULiL";
+    font-size: 90px;
+    background: #0a0001;
+    border-radius: 5px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+.addPoints, button{
+    background: none;
+    color: #9AABD8
+}
+.addPoints > button {
+    width: 45px;
+    height: 45px;
+}
+
+button{
+    font-family: "Cursed Timer ULiL";
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.container-NG{
+    display: flex;
+    justify-content: center
+}
+
+.container-NG > button{
+    width: 262px;
+    height: 86px;
+    font-size: 28px;
+    
+}
